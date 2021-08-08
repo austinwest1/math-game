@@ -1,0 +1,52 @@
+﻿<Window x:Class="Assignment_5___Math_Game.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_5___Math_Game"
+        mc:Ignorable="d"
+        Title="GameWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="gamescreen.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="gameTitleLbl" Content="ADDITION GAME" HorizontalContentAlignment="Center" Margin="194,38,175.6,0" VerticalAlignment="Top" Height="58" Foreground="White" FontSize="30" FontFamily="Segoe UI Black" BorderThickness="0,5" BorderBrush="White"/>
+        <Label Content="Try and answer as many questions correctly as you can!" HorizontalAlignment="Left" Margin="178,103,0,0" VerticalAlignment="Top" Height="56" Width="444" Background="{x:Null}" Foreground="White" FontSize="16" FontFamily="Segoe UI Black" RenderTransformOrigin="0.5,0.5">
+            <Label.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="TextWrapping" Value="Wrap" />
+                </Style>
+            </Label.Resources>
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.48"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.26"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+
+        </Label>
+        <Button x:Name="startButton" Content="Start!" HorizontalAlignment="Left" Margin="341,151,0,0" VerticalAlignment="Top" Width="132" Height="34" Background="#FF373C43" Foreground="White" FontSize="18" Click="Button_Click"/>
+        <Rectangle Fill="#FF454552" HorizontalAlignment="Left" Height="193" Margin="100,206,0,0" VerticalAlignment="Top" Width="611" Opacity="0.6" RadiusY="7.6" RadiusX="7.6"/>
+        <Label x:Name="operand1" Content="" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="148,250,0,0" VerticalAlignment="Top" Height="86" Width="102" BorderBrush="White" BorderThickness="2" Background="#FF373C43" Foreground="White" FontSize="54" FontFamily="Segoe UI Black"/>
+        <Label x:Name="operand2" Content="" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="354,250,0,0" VerticalAlignment="Top" Height="86" Width="102" BorderBrush="White" BorderThickness="2" Background="#FF373C43" Foreground="White" FontSize="54" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="answerBox" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="86" Margin="569,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103" Background="#FF373C43" Foreground="White" FontSize="54" BorderThickness="2" BorderBrush="White" PreviewKeyDown="answerBox_PreviewKeyDown" IsEnabled="False" FontFamily="Segoe UI Black"/>
+        <Label x:Name="operationLbl" Content="" HorizontalContentAlignment="Center" Margin="259,233,453.6,0" VerticalAlignment="Top" Height="98" Foreground="White" FontSize="72"/>
+        <Label x:Name="equalsLbl" Content="=" HorizontalContentAlignment="Left" Margin="481,231,217.6,0" VerticalAlignment="Top" Height="103" Width="95" FontSize="72" Foreground="White"/>
+        <Button x:Name="submitAnswerBtn" Content="SUBMIT" HorizontalAlignment="Left" Margin="362,362,0,0" VerticalAlignment="Top" Width="89" Height="24" Background="White" FontFamily="Segoe UI Black" Foreground="#FF373C43" IsDefault="True" Click="submitAnswerBtn_Click"/>
+        <Label x:Name="correctLbl" Content="" HorizontalContentAlignment="Center" Margin="340,208,321.6,0" VerticalAlignment="Top" Width="132" Foreground="White" FontSize="20"/>
+        <Rectangle Fill="#FF454552" HorizontalAlignment="Left" Height="51" Margin="521,138,0,0" VerticalAlignment="Top" Width="55" Opacity="0.6" RadiusX="15.6" RadiusY="15.6"/>
+        <Label x:Name="timerLbl" Content="0" HorizontalAlignment="Left" Margin="537,145,0,0" VerticalAlignment="Top" Foreground="White" Height="47" Width="195" FontSize="18" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.595"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.39"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="mainMenuBtn" Content="Main Menu" HorizontalAlignment="Left" Margin="676,19,0,0" VerticalAlignment="Top" Width="99" Height="32" Background="#FF454552" Foreground="White" FontFamily="Segoe UI Black" Click="mainMenuBtn_Click"/>
+    </Grid>
+</Window>

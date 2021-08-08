@@ -1,0 +1,23 @@
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\bin\Debug\Assignment 5 - Math Game.exe.config
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\bin\Debug\Assignment 5 - Math Game.exe
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\bin\Debug\Assignment 5 - Math Game.pdb
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.csprojAssemblyReference.cache
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\MainWindow.g.cs
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\App.g.cs
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game_MarkupCompile.cache
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game_MarkupCompile.lref
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\MainWindow.baml
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.g.resources
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment_5___Math_Game.Properties.Resources.resources
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.csproj.GenerateResource.cache
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.csproj.CoreCompileInputs.cache
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.exe
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.pdb
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\GameWindow.g.cs
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\GameWindow.baml
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\FinalScoreWindow.g.cs
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\FinalScoreWindow.baml
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\bin\Debug\Assignment 5 - Math Game.exe.manifest
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\bin\Debug\Assignment 5 - Math Game.application
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.exe.manifest
+C:\Users\austi\Documents\CS 3280\Assignment 5 - Math Game\obj\Debug\Assignment 5 - Math Game.application
